@@ -18,7 +18,6 @@ echo "👋 Hi, I'm $NAME"
 echo "🖥️ Role: $ROLE"
 echo "🏳️ Languages: ${LANGUAGES[*]}"
 say_hi
-exit 0
 ```
 
 ## 🔧 Technologies & Tools
