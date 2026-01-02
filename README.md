@@ -4,38 +4,50 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 ```
-#!/bin/bash
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: profile-readme
+  namespace: default
+  labels:
+    app.kubernetes.io/name: profile
+    app.kubernetes.io/part-of: github-profile
+data:
+  name: "Dominik"
+  role: "DevOps Engineer"
+  languages: "pl_PL,en_US"
+  greetingHeader: "👋 Hi, I'm Dominik"
+  greetingRole: "🖥️ Role: DevOps Engineer"
+  greetingLanguages: "🏳️ Languages: pl_PL en_US"
+  sayHi: "Hello, thanks for dropping by, hope you find some of my work interesting."
 
-NAME="Dominik"
-ROLE="DevOps Engineer"
-LANGUAGES=("pl_PL" "en_US")
-
-say_hi() {
-    echo "Hello, thanks for dropping by, hope you find some of my work interesting."
-}
-
-echo "👋 Hi, I'm $NAME"
-echo "🖥️ Role: $ROLE"
-echo "🏳️ Languages: ${LANGUAGES[*]}"
-say_hi
 ```
 
 ## 🔧 Technologies & Tools
 
+**DevOps / CI/CD**
+
+![Kubernetes](https://img.shields.io/badge/Platform-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Platform-Docker-2496ED?logo=docker&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/CD-ArgoCD-EF7B4D?logo=argo&logoColor=white)
+![Jenkins](https://img.shields.io/badge/CI-Jenkins-D24939?logo=jenkins&logoColor=white)
+![Helm](https://img.shields.io/badge/CD-Helm-0F1689?logo=helm&logoColor=white)
+![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
+![GHCR](https://img.shields.io/badge/CI/CD-GHCR-6E40C9?logo=github&logoColor=white)
+
 **Programming Languages:**
 
-![Bash](https://img.shields.io/badge/Code-Bash-royalblue?logo=gnubash&logoColor=white)
-![Node.js](https://img.shields.io/badge/Code-Node.js-royalblue?logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Code-Django-royalblue?logo=django&logoColor=white)
-![JavaScript](https://img.shields.io/badge/Code-JavaScript-royalblue?logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/Code-TypeScript-royalblue?logo=typescript&logoColor=white)
-![React.js](https://img.shields.io/badge/Code-React.js-royalblue?logo=react&logoColor=white)
-![Less.js](https://img.shields.io/badge/Code-Less.js-royalblue?logo=less&logoColor=white)
+![Bash](https://img.shields.io/badge/Code-Bash-4EAA25?logo=gnubash&logoColor=white)
+![Node.js](https://img.shields.io/badge/Code-Node.js-339933?logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Code-Django-092E20?logo=django&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/Code-TypeScript-3178C6?logo=typescript&logoColor=white)
+![React.js](https://img.shields.io/badge/Code-React.js-61DAFB?logo=react&logoColor=black)
 
 **Tools and Services**
 
-![K8s](https://img.shields.io/badge/Tools-Kubernetes-royalblue?logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Tools-Docker-royalblue?logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Tools-Jenkins-royalblue?logo=jenkins&logoColor=white)
-![GitLab](https://img.shields.io/badge/Tools-GitLab-royalblue?logo=gitlab&logoColor=white)
+![Postman](https://img.shields.io/badge/Tools-Postman-FF6C37?logo=postman&logoColor=white)
+
+
 
