@@ -1,9 +1,9 @@
-# 👋 Hi there 
- 
+![header banner](assets/banner-dominikmatras.jpg)
+
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=dominikmatras.dominikmatras)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-```
+<!-- ```
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -21,7 +21,7 @@ data:
   greetingLanguages: "🏳️ Languages: pl_PL en_US"
   sayHi: "Hello, thanks for dropping by, hope you find some of my work interesting."
 
-```
+``` -->
 
 ## 🔧 Technologies & Tools
 
@@ -32,15 +32,13 @@ data:
 ![ArgoCD](https://img.shields.io/badge/CD-ArgoCD-EF7B4D?logo=argo&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/CI-Jenkins-D24939?logo=jenkins&logoColor=white)
 ![Helm](https://img.shields.io/badge/CD-Helm-0F1689?logo=helm&logoColor=white)
-![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
-![GHCR](https://img.shields.io/badge/CI/CD-GHCR-6E40C9?logo=github&logoColor=white)
 
 **Programming Languages:**
 
 ![Bash](https://img.shields.io/badge/Code-Bash-4EAA25?logo=gnubash&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Code-Node.js-339933?logo=nodedotjs&logoColor=white)
 ![Django](https://img.shields.io/badge/Code-Django-092E20?logo=django&logoColor=white)
+![Django](https://img.shields.io/badge/Code-Python-FEC107?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/Code-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/Code-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![React.js](https://img.shields.io/badge/Code-React.js-61DAFB?logo=react&logoColor=black)
@@ -48,6 +46,5 @@ data:
 **Tools and Services**
 
 ![Postman](https://img.shields.io/badge/Tools-Postman-FF6C37?logo=postman&logoColor=white)
-
-
-
+![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
