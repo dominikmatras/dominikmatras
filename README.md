@@ -3,7 +3,7 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=dominikmatras.dominikmatras)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-<!-- ```
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -17,15 +17,14 @@ data:
   role: "DevOps Engineer"
   languages: "pl_PL,en_US"
   greetingHeader: "👋 Hi, I'm Dominik"
-  greetingRole: "🖥️ Role: DevOps Engineer"
+  greetingRole: "🖥️ Role: DevOps Engineer at Alior Bank"
   greetingLanguages: "🏳️ Languages: pl_PL en_US"
   sayHi: "Hello, thanks for dropping by, hope you find some of my work interesting."
-
-``` -->
+```
 
 ## 🔧 Technologies & Tools
 
-**DevOps / CI/CD**
+**DevOps / CICD**
 
 ![Kubernetes](https://img.shields.io/badge/Platform-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Platform-Docker-2496ED?logo=docker&logoColor=white)
